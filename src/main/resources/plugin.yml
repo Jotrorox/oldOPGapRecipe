@@ -1,4 +1,5 @@
 name: oldOPGapRecipe
-version: '1.0-SNAPSHOT'
+version: '1.0'
 main: com.jotrorox.oldOPGapRecipe.OldOPGapRecipe
 api-version: '1.21'
+author: Jotrorox
