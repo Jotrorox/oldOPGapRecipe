@@ -1,0 +1,4 @@
+name: oldOPGapRecipe
+version: '1.0-SNAPSHOT'
+main: com.jotrorox.oldOPGapRecipe.OldOPGapRecipe
+api-version: '1.21'
