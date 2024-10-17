@@ -15,5 +15,16 @@ public final class OldOPGapRecipe extends JavaPlugin {
         recipe.setIngredient('G', Material.GOLD_BLOCK);
         recipe.setIngredient('A', Material.APPLE);
         getServer().addRecipe(recipe);
+    
+        // Pretty message for the server console
+        getServer().getConsoleSender().sendMessage("");
+        getServer().getConsoleSender().sendMessage("§6===============================");
+        getServer().getConsoleSender().sendMessage("§ePlugin: §aOld OP Gap Recipe");
+        getServer().getConsoleSender().sendMessage("§eVersion: §a1.0");
+        getServer().getConsoleSender().sendMessage("§eDescription: §aA plugin that adds the old OP golden apple recipe back to the game.");
+        getServer().getConsoleSender().sendMessage("§eAuthor: §aJotrorox");
+        getServer().getConsoleSender().sendMessage("§eWebsite: §ahttps://Jotrorox.com");
+        getServer().getConsoleSender().sendMessage("§6===============================");
+        getServer().getConsoleSender().sendMessage("");
     }
 }
